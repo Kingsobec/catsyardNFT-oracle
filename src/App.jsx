@@ -15,7 +15,7 @@ import {
 
 
 const App = () => (
-  <div className="max-w-[1700px] min-w-[300px] m-auto bg-[url(./assets/Rectangle-34624161.webp)] bg-no-repeat bg-bottom bg-contain">
+  <div className="max-w-[1700px] min-w-[300px] m-auto bg-[url(./assets/Rectangle-34624161.webp)] bg-no-repeat bg-bottom bg-contain overflow-x-hidden">
     <Navbar/>
     <Landing />
     <Yard />
