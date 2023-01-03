@@ -1,0 +1,91 @@
+@font-face {
+  font-family: warsaw gothic;
+  src: url(./warsaw-gothic-font/WarsawGothic-BnBV.otf);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* ::-webkit-scrollbar {
+  width: .8em;
+  height: 1em
+}
+
+::-webkit-scrollbar-button {
+  background: #ccc
+}
+
+::-webkit-scrollbar-track-piece {
+  background: #FFFAF2
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666
+} */
+
+body {
+  background-color: #FFFAF2;
+}
+.gothic{
+  font-family: warsaw gothic;
+}
+.inter{
+  font-family: 'inter',sans-serif;
+}
+.show-eyes {
+  cursor: url(./assets/eyes.svg), auto;
+}
+.shadowed{
+  text-shadow: 0px 0px 6px rgba(255, 255, 255, 0.5);
+}
+
+.img{
+  width: 2rem;
+}
+.rotate {
+  transform: rotate(180deg);
+}
+.height-0{
+  height: 0;
+}
+.showmen {
+  transition: all .3s linear;
+  max-height: 1000px;
+}
+.hide{
+  max-height: 0;
+}
+.heading4 {
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.72);
+}
+.blue{
+  color: #BAFFC2;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.button {
+  height: 2.5rem;
+  text-transform: uppercase;
+  padding: 0.1em 1em;
+  letter-spacing: 0.315em;
+  font-size: 1.2rem;
+  color: #fff;
+  background: conic-gradient(from -52.57deg at 100% 141.25%, #D491FF -16.2deg, #59E0FF 26.54deg, #D491FF 343.8deg, #59E0FF 386.54deg);
+  border: none;
+  -webkit-clip-path: polygon(8% 0, 100% 0, 100% 59%, 92% 100%, 0 100%, 0 40%);
+  clip-path: polygon(8% 0, 100% 0, 100% 59%, 92% 100%, 0 100%, 0 40%);
+  cursor: pointer;
+}
+.com {
+  background: linear-gradient(44.3deg, #A3E3F2 14.67%, #9DA7F8 71.29%, #9B78F4 100%);
+}
+.show-utilities{
+  background: url(./assets/Vector222.webp), rgba(0,0,0,0.8);
+}
+.scroller::-webkit-scrollbar {
+  display: none;
+}
